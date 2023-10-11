@@ -13,11 +13,17 @@
         }
     </style>
 </head>
-<body>
+<body> 
+   
     <div class="container">
     <header>
     <div class="gora"><h1>Formularz o kupno auta</h1></div>
     </header>
+    <div class="lewo">
+        <fieldset>
+    <img src="https://img.motozem.pl/files/photo_product/2/0/nalepka-red-bull.jpg" width="80%" >
+        </fieldset>
+    </div>  <main>
 <fieldset>
     <legend><h2>Dane</h2></legend>
     <label for="dane">
@@ -88,6 +94,31 @@
     <label for="dane pojazdu">
         <input type="color">Wybierz kolor pojazdu
     </label>
+    <label for="dane pojazdu">
+        <select name="paliwo" id="" value="Wybierz">
+            <optgroup label="Wybierz rodzaj paliwa">
+                <option value="1">Wybierz rodzaj paliwa</option>
+                <option value="3">Benzyna</option>
+                <option value="4">Benzyna+CNG</option>
+                <option value="5">Benzyna+LPG</option>
+                <option value="6">Diesel</option>
+                <option value="7">Elektryczny</option>
+                <option value="8">Etanol</option>
+                <option value="9">Hybryda</option>
+                <option value="10">Wodór</option>
+          </optgroup>
+        </select>
+    </label>
+    <label for="dane pojazdu">
+        <select name="paliwo" id="" value="Wybierz">
+            <optgroup label="Stan uszkodzeń">
+                <option value="1">Wybierz stan uszkodzeń</option>
+                <option value="2">Dowolnu</option>
+                <option value="3">Nieuszkodzony</option>
+                <option value="4">Uszkodzony</option>
+          </optgroup>
+        </select>
+    </label>
     <form >
        Wybierz cenę pojazdu <input type="range" id="a" name="a" min="2000" max="400000" step=".5" oninput="result.value=a.value" />          
         <output name="result" for="a">0</output> PLN
@@ -96,8 +127,15 @@
         Rok produkcji <input type="range" id="a" name="a" min="1990" max="2023" step="" oninput="result.value=a.value" />          
          <output name="result" for="a">0</output>r.
      </form>
-</fieldset>
-
+<label for="dane pojazdu">
+    <form >
+        Przebieg <input type="range" id="a" name="a" min="20000" max="250000" step="" oninput="result.value=a.value" />          
+         <output name="result" for="a">20000</output> KM
+     </form>
+</label>
+    </fieldset>
+</main>
+   
 
 
     
