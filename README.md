@@ -20,12 +20,15 @@
     </header>
 <fieldset>
     <legend><h2>Dane</h2></legend>
+    <label for="dane">
+        <input type="text" name="" id="">
+    </label>
 
 
 
 
 
-    </fieldset>
+</fieldset>
 
 
 
