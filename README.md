@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         body {
-            background-color: rgb(144, 241, 241);
+            background-color: rgb(67, 120, 236);
             display: flex;
             justify-content: center;
         }
@@ -21,13 +21,23 @@
 <fieldset>
     <legend><h2>Dane</h2></legend>
     <label for="dane">
-        <input type="text" name="" id="">
+        <input type="text" name="imie" required placeholder="Wpisz swoje imie">
     </label>
-
-
-
-
-
+    <label for="dane">
+        <input type="text" name="nazwisko" required placeholder="Wpisz swoje nazwisko">
+    </label>
+    <label for="dane">
+        <input type="text" name="wiek"  required placeholder="(dd.mm.rrrr)">
+    </label>
+    <label for="dane">
+        <input type="text" name="miasto" required placeholder="Podaj miasto">
+    </label>
+    <label for="dane">
+        <input type="radio" name="mężczyzna"> Mężczyzna
+    </label>
+    <label for="dane">
+        <input type="radio" name="kobieta"> Kobieta
+    </label>
 </fieldset>
 
 
