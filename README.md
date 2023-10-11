@@ -19,9 +19,19 @@
     <header>
     <div class="gora"><h1>Formularz o kupno auta</h1></div>
     </header>
+    <div class="prawo">
+        <fieldset>
+<legend><h5>Przykładowe samochody u nas</h5></legend>
+<img src="https://d-art.ppstatic.pl/kadry/k/r/1/d7/58/6256bdd039cc3_o_original.jpg" width="80%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/BMW_i7_xDrive60_1X7A6424.jpg" width="80%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Mercedes-AMG_G_63_Genf_2018.jpg" width="80%">
+        </fieldset>
+    </div>
     <div class="lewo">
         <fieldset>
+            <legend><h4>Sponorzy</h4></legend>
     <img src="https://img.motozem.pl/files/photo_product/2/0/nalepka-red-bull.jpg" width="80%" >
+    <img src="https://static.vecteezy.com/system/resources/previews/007/978/654/original/sprite-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" width="80%">
         </fieldset>
     </div>  <main>
 <fieldset>
